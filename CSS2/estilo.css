@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #fafafa;
+    overflow-x: hidden;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    height: 600px;
+    background-color: #fafafa;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0px 40px;
+    border: 1px solid #ccc;
+}
+
+
+header {
+    width: 100%;
+    height: 70px;
+    background-position: center;
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-image: url(../img/instagram-nome.png);
+}
+
+.one .two {
+    width: 100%;
+    max-width: 300px;
+    padding: 0 5px;
+}
+
+.one .two h2 {
+    color: #8e8e8e;
+    margin: 0 auto;
+    width: 100%;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.one {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+
+.before {
+    color: #8e8e8e;
+    margin: 16px 0 26px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form .before::after,
+.before::before {
+    content: '';
+    width: 110px;
+    height: 1px;
+    display: block;
+    background-color: #dbdbdb;
+}
+
+form button {
+    background-color: #0095f6;
+    width: 100%;
+    border-radius: 8px;
+    line-height: 40px;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+button i {
+    width: 30px;
+}
+
+form .form-wraper input {
+    margin-top: 7px;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: 0;
+}
+
+form .form-wraper {
+    margin-top: 5px;
+}
+
+form .content {
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+form .content p {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #8e8e8e;
+    width: 100%;
+    max-width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form .content p strong {
+    cursor: pointer;
+}
+
+form input[type='submit'] {
+    background-color: #0095f6;
+    width: 100%;
+    border-radius: 8px;
+    line-height: 10px;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container .wraper {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 10px auto;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+.wraper a {
+    text-decoration: none;
+    color: #0095f6;
+    display: inline-block;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.wraper p {
+    display: inline-block;
+}
+
+.content_2 {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.content_2 p {
+    margin: 15px;
+}
+
+.content_2 .img-playstore img {
+    width: 100%;
+    max-width: 150px;
+    height: 50px;
+    float: left;
+}
+
+.img-windows img {
+    width: 100%;
+    max-width: 140px;
+    float: right;
+    height: 50px;
+}
+
+@media screen and (max-width:300px) {
+    main {
+        width: 100%;
+        margin: 0 0;
+        padding: 0 5px;
+    }
+
+    form .before::after,
+    .before::before {
+        content: '';
+        width: 100px;
+        height: 1px;
+        display: block;
+        background-color: #dbdbdb;
+    }
+
+    .content_2 {
+        display: inline-block;
+        float: none;
+        margin: 5px auto;
+        padding: 0 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .content_2 .img-playstore {
+        width: 90%;
+        display: inline-block;
+        margin-right: -4px;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .content_2 .img-windows {
+        width: 90%;
+        display: inline-block;
+        margin-right: -4px;
+        float: none;
+        margin: 10px 10px;
+        text-align: center;
+    }
+
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width:257px) {
+
+    form .before::after,
+    .before::before {
+        content: '';
+        width: 80px;
+        height: 1px;
+        display: block;
+        background-color: #dbdbdb;
+    }
+}
